@@ -1,0 +1,1 @@
+This is some vector DB experimentation done with Chroma. The pdfs that got converted into a vector DB could have been better curated. The LLM we used could have been better. It's really just an engineering test.
