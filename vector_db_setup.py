@@ -70,12 +70,11 @@ def process_llm_response(llm_response):
         print(source.metadata['source'])
 
 print("let's do some tests...")
-query = "What is the meaning of Digital Physics?"
+query = "Who is the lead character in Digital Physics?"
 llm_response = qa_chain(query)
 process_llm_response(llm_response)
 
-# break it down
-query = "Who is Marcel?"
+query = "Who are the Dude's friends in the Big Lebowski?"
 llm_response = qa_chain(query)
 process_llm_response(llm_response)
 
