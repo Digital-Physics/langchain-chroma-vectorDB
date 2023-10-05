@@ -1,1 +1,3 @@
 This is some vector DB experimentation done with Chroma. Eight movie screenplays were split into chunks and represented as vectors in a database. When someone asks a question about a movie, the retriever finds the closest vectors needed to answer the questions, synthesizes it, and returns a response. It also lists the pdf source documents it used. The LLM we used could be better. If you use something like a ChatGPT api key next time you should get even better responses.
+
+![Screenshot of vector_db_interaction.py being run](screenshot.png)
